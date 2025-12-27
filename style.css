@@ -224,19 +224,24 @@ aside {
         flex-direction: column;
     }
 
+    
     .features-container {
-        flex-direction: column; /* Stacks the 3 cards vertically */
-        align-items: center;
+       
+        grid-template-columns: 1fr; 
         margin-top: 20px;
     }
 
     nav ul {
-        flex-direction: column; /* Stacks the menu items */
+        flex-direction: column;
         align-items: center;
     }
 
     .hero-section {
-        height: auto; /* Allows the image box to shrink/grow */
+        height: auto;
         padding: 50px 20px;
+    }
+    
+    .feature-card {
+        width: 100%; 
     }
 }
